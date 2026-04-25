@@ -1,11 +1,12 @@
-# Frontend - Sistema de Notas
+## Ejecutar proyecto
 
-React + Vite frontend que consume API REST en Spring Boot
+git clone https://github.com/MayerliAvila/prueba-tecnica-front.git
+
+Terminal:
 
 ---
 
 ## 🚀 Instalación
 
-```bash id="install-frontend"
-npm install
-npm run dev
+docker build -t frontend .
+docker run -p 3000:80 frontend
