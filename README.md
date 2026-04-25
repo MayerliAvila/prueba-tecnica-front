@@ -9,4 +9,5 @@ Terminal:
 ## 🚀 Instalación
 
 docker build -t frontend .
+
 docker run -p 3000:80 frontend
